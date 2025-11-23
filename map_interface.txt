@@ -1,0 +1,49 @@
+Map interface
+
+✅ A map is a set of key-value pairs.
+
+Let's initialize a HashMap:
+
+Map<Character, Integer> hm=new HashMap(); //Java
+
+map={} #or map=dict() #Python
+
+HashMap is one of the Map implementations.
+
+🦋Each key is unique. Values can be duplicated.
+
+🦋Map methods:
+
+1) put(K key, V value) method is used to insert a key-value pair into the map.
+   If the key already exists in the map, the method updates the value associated with that key.
+   
+   hm.put("Aryan", 35);
+   hm.put("Kunal", 23);
+   
+2) get(Object key) method gets value by given key.
+
+   hm.get("Kunal");
+
+3) containsKey(Object key) method checks if the map contains the given key or not.
+
+   hm.containsKey("Kunal");
+   
+4) containsValue(Object value) method checks if a specific value exists in the map.
+   
+   hm.containsValue(30);
+   
+5) remove (Object key) method removes the key and its value from the map if the key is found.
+
+   hm.remove("Kunal");
+   
+6) replace() method updates the value of an existing key in the map.
+   
+   hm.replace("Kunal", 21);
+   
+7) putIfAbsent() method adds a key-value pair to the map + only if the key is not already present.
+   If the key exists, putIfAbsent() doesn't change the value and returns the existing value.
+   
+   hm.putIfAbsent("Vijay", 26);
+
+
+
