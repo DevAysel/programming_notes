@@ -45,5 +45,18 @@ HashMap is one of the Map implementations.
    
    hm.putIfAbsent("Vijay", 26);
 
+----------------------------------------------------------------------------------------------------
+
+Türkçe:
+
+Map interface
+
+✅Anahtar-değer çiftlerini depolayan veri yapısıdır.
+
+HashMap oluşturalım:
+
+Map<Character, Integer> hm=new HashMap(); // Java
+
+map={} #or map=dict() #Python
 
 
