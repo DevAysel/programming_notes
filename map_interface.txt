@@ -20,7 +20,7 @@ HashMap is one of the Map implementations.
    hm.put("Aryan", 35);
    hm.put("Kunal", 23);
    
-2) get(Object key) method gets value by given key.
+2) get(Object key) method + gets value + by + given key.
 
    hm.get("Kunal");
 
@@ -45,6 +45,8 @@ HashMap is one of the Map implementations.
    
    hm.putIfAbsent("Vijay", 26);
 
+8) entrySet()
+
 ----------------------------------------------------------------------------------------------------
 
 Türkçe:
@@ -59,4 +61,11 @@ Map<Character, Integer> hm=new HashMap(); // Java
 
 map={} #or map=dict() #Python
 
+💫 HashMap + Map arayüzünün + implementasyonlarından + biridir.
+
+🦋 Her anahtar benzersiz olmalıdır. Değerlerin duplicate olabilir.
+
+🦋Map metotları:
+
+1) put(K key, V value)
 
