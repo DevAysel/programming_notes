@@ -10,9 +10,9 @@ map={} #or map=dict() #Python
 
 HashMap is one of the Map implementations.
 
-🦋Each key is unique. Values can be duplicated.
+🦋 Each key is unique. Values can be duplicated.
 
-🦋Map methods:
+🦋 Map methods:
 
 1) put(K key, V value) method is used to insert a key-value pair into the map.
    If the key already exists in the map, the method updates the value associated with that key.
@@ -63,9 +63,10 @@ map={} #or map=dict() #Python
 
 💫 HashMap + Map arayüzünün + implementasyonlarından + biridir.
 
-🦋 Her anahtar benzersiz olmalıdır. Değerlerin duplicate olabilir.
+🦋 Her anahtar benzersiz olmalıdır. Değerler duplicate olabilir.
 
-🦋Map metotları:
+🦋 Map metotları:
 
 1) put(K key, V value)
+
 
