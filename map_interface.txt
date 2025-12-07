@@ -36,11 +36,11 @@ HashMap is one of the Map implementations.
 
    hm.remove("Kunal");
    
-6) replace() method updates the value of an existing key in the map.
+6) replace(K key, V newValue) method updates the value of an existing key in the map.
    
    hm.replace("Kunal", 21);
    
-7) putIfAbsent() method adds a key-value pair to the map + only if the key is not already present.
+7) putIfAbsent(K key, V value) method adds a key-value pair to the map + only if the key is not already present.
    If the key exists, putIfAbsent() doesn't change the value and returns the existing value.
    
    hm.putIfAbsent("Vijay", 26);
@@ -67,6 +67,30 @@ map={} #or map=dict() #Python
 
 🦋 Map metotları:
 
-1) put(K key, V value)
+1) put(K key, V value) anahtar-değer çiftini Map'e eklemek için kullanılan metottur.
+Eğer anahtar Map'te bulunuyorsa, metot anahtara karşılık gelen değeri günceller.
 
+hm.put("Aryan", 35);
+hm.put("Kunal, 23);
 
+2) get(Object key) anahtara karşılık gelen değeri döndürür.
+
+hm.get("Kunal");
+
+3) containsKey(Object key) Map'in şu anahtara sahip olup olmadığını kontrol etmek için kullanılır.
+
+hm.containsKey("Kunal");
+
+4) containsValue(Object value) Map'in şu değere sahip olub olmadığını kontrol etmek için kullanılır.
+
+hm.containsValue(30);
+
+5) remove(Object key) anahtar bulunduğu halde, anahtar-değer çiftini Map'ten siler.
+
+hm.remove("Kunal");
+
+6) replace(K key, V newValue) Map'te anahtar ile ilişkili değeri güncellemek için kullanılır.
+
+hm.replace("Kunal", 21);
+
+7) putIfAbsent()
