@@ -1,0 +1,11 @@
+Relational Database Management System
+
+✅ RDBMS are the most popular database systems that use ACID.
+
+🦋 Atomicity
+🦋 Consistency
+🦋 Isolation
+🦋 Durability
+
+
+Atomicity -> ya hep, ya hiç
